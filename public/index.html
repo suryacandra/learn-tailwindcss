@@ -1,30 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Lets Make This Real</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="bg-gray-400">
+    <style type="text/tailwindcss"></style>
+  </head>
+  <body class="bg-gray-400">
     <h1 class="font-mono text-center text-4xl mb-2">Unity</h1>
-    <section class="font-mono">
-        <div class="mx-auto px-5 py-5 max-w-md bg-pink-300 rounded-lg shadow-lg">
-            <h1 class="mb-2">Blankroom</h1>
-            <div class="grid grid-cols-6 gap-4">
-                <img class="col-start-1 col-end-7 rounded-lg" src="http://source.unsplash.com/2000x2000?cat">
-                <span class="col-start-1 col-end-7 pl-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In accusamus, sint earum rerum reprehenderit voluptatum obcaecati, quibusdam quo voluptates perferendis molestiae sunt tempora odio consectetur.
-                </span>
-                    <div class="text-white col-start-1 col-end-3 border-4 border-black bg-pink-600 p-2 text-center">
-                        Book a room
-                    </div>
-                    <div class="text-white col-start-4 col-end-7 border-4 border-black bg-purple-600 p-2 text-center">
-                        See our room
-                    </div>
-            </div>
+    <section class="font-mono my-20">
+      <div class="mx-auto px-5 py-5 max-w-md bg-pink-300 rounded-lg shadow-lg">
+        <h1 class="mb-2">Blankroom</h1>
+        <div class="grid grid-cols-6 gap-4">
+          <img
+            class="col-start-1 col-end-7 rounded-lg"
+            src="http://source.unsplash.com/2000x2000?cat"
+          />
+          <span class="col-start-1 col-end-7 pl-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+            accusamus, sint earum rerum reprehenderit voluptatum obcaecati,
+            quibusdam quo voluptates perferendis molestiae sunt tempora odio
+            consectetur.
+          </span>
+          <div
+            class="text-white col-start-1 col-end-3 border-4 border-black bg-pink-600 p-2 text-center"
+          >
+            Book a room
+          </div>
+          <div
+            class="text-white col-start-4 col-end-7 border-4 border-black bg-purple-600 p-2 text-center"
+          >
+            See our room
+          </div>
         </div>
+      </div>
     </section>
-</body>
+    <!-- <section class="max-w-md mx-auto mb-52 flex justify-center">
+        <span>
+            Light
+        </span>
+        <input type="checkbox" id="b" class="">
+        <label for="b">
+            <div class="w-9 h-5 bg-stone-700 rounded-full flex items-center p-1 cursor-pointer">
+                <div class="w-4 h-4 bg-stone-300 rounded-full a">
+                </div>
+            </div>
+        </label>
+        <span>
+            Dark
+        </span>
+    </section> -->
+
+    <h1 class="text-center font-bold text-2xl mb-5">My Gallery</h1>
+    <div
+      class="container p-5 mx-auto font-mono sm:flex sm:flex-wrap sm:justify-evenly sm:gap-3"
+    >
+      <div
+        class="bg-white rounded-lg mb-10 shadow-lg sm:w-64 sm:h-auto sm:mb-0 md:w-80 md:h-auto lg:w-72 lg:h-auto"
+      >
+        <img
+          src="https://source.unsplash.com/2000x2000?cat"
+          alt="cat"
+          class="rounded-t-lg mb-2 object-full object-cover"
+        />
+        <div class="font-semibold text-lg p-2 text-center">Title</div>
+        <p class="text-md p-2 text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          voluptates accusantium voluptas ipsam soluta aperiam magnam saepe.
+          Explicabo, quidem quam!
+        </p>
+      </div>
+      <div
+        class="bg-white rounded-lg mb-10 shadow-lg sm:w-64 sm:h-auto sm:mb-0 md:w-80 md:h-auto lg:w-72 lg:h-auto"
+      >
+        <img
+          src="https://source.unsplash.com/2000x2000?cat"
+          alt="cat"
+          class="rounded-t-lg mb-2 object-full object-cover"
+        />
+        <div class="font-semibold text-lg p-2 text-center">Title</div>
+        <p class="text-md p-2 text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          voluptates accusantium voluptas ipsam soluta aperiam magnam saepe.
+          Explicabo, quidem quam!
+        </p>
+      </div>
+      <div
+        class="bg-white rounded-lg mb-10 shadow-lg sm:w-64 sm:h-auto sm:mb-0 md:w-80 md:h-auto lg:w-72 lg:h-auto"
+      >
+        <img
+          src="https://source.unsplash.com/2000x2000?cat"
+          alt="cat"
+          class="rounded-t-lg mb-2 object-full object-cover"
+        />
+        <div class="font-semibold text-lg p-2 text-center">Title</div>
+        <p class="text-md p-2 text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          voluptates accusantium voluptas ipsam soluta aperiam magnam saepe.
+          Explicabo, quidem quam!
+        </p>
+      </div>
+      <div
+        class="bg-white rounded-lg mb-10 shadow-lg sm:w-64 sm:h-auto sm:mb-0 md:w-80 md:h-auto lg:w-72 lg:h-auto"
+      >
+        <img
+          src="https://source.unsplash.com/2000x2000?cat"
+          alt="cat"
+          class="rounded-t-lg mb-2 object-full object-cover"
+        />
+        <div class="font-semibold text-lg p-2 text-center">Title</div>
+        <p class="text-md p-2 text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          voluptates accusantium voluptas ipsam soluta aperiam magnam saepe.
+          Explicabo, quidem quam!
+        </p>
+      </div>
+      
+      
+    </div>
+  </body>
 </html>
