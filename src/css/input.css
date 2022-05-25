@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .grid-container {
+    @apply mt-20 p-2 grid gap-2 sm:grid-cols-3
+    }
+
+    .grid-card {
+    @apply bg-sky-300 aspect-[4/3] rounded-xl shadow-lg overflow-hidden hover:scale-90 transition-all duration-300
+    }
+
+    .grid-card-items {
+    @apply w-full h-full bg-cover bg-bottom group-hover:scale-125 transition-all duration-300
+    }
+}
